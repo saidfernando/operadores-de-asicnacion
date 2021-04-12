@@ -1,93 +1,25 @@
 
-function operadorDeExponenciacion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x **= y; //Operador de exponenciacion Abreviado
-//  x = x ** y; //Operador de exponenciacion Significado
-    console.warn(`Operador exponenciacion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
 
 
+let a = 5;
+let b = '5';
 
-function operadorDeExponenciacion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x **= y; //Operador de exponenciacion Abreviado
-//  x = x ** y; //Operador de exponenciacion Significado
-    console.warn(`Operador exponenciacion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeModulo(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x %= y; //Operador de Modulo Abreviado
-//  x = x % y; //Operador de Modulo Significado
-    console.warn(`Operador Modulo`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeDivision(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x /= y; //Operador de Division Abreviado
-//  x = x / y; //Operador de Division Significado
-    console.warn(`Operador Division`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeMultiplicacion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x *= y; //Operador de Multiplicacion Abreviado
-//  x = x * y; //Operador de Multiplicacion Significado
-    console.warn(`Operador Multiplicacion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeSustracion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x -= y; //Operador de Sustracion Abreviado
-//  x = x - y; //Operador de Sustracion Significado
-    console.warn(`Operador Sustracion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeAdicion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x += y; //Operador de Adicion Abreviado
-//  x = x + y; //Operador de Adicion Significado
-    console.warn(`Operador Adicion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-function operadorDeAsignacion(x, y){
-    console.warn(`Parametros iniciales`);
-    console.log(`Parametro x : ${x}`);
-    console.log(`Parametro y : ${y}`);
-    x = y; //Operador de Asignacion Abreviado
-//  x = y; //Operador de Asignacion Significado
-    console.warn(`Operador Asignacion`);
-    console.log(`Parametro x : ${x} RESULTADO`);
-    console.log(`Parametro y : ${y}`);
-}
-let x = '5';
-let y = 2;
-operadorDeAsignacion(x,y);
-operadorDeAdicion(x,y);
-operadorDeSustracion(x,y);
-operadorDeMultiplicacion(x,y);
-operadorDeDivision(x,y);
-operadorDeModulo(x,y);
-operadorDeExponenciacion(x,y);
+console.log(a, typeof(a));
+console.log(b, typeof(b));
+
+console.warn("Menor");
+console.log(a < b); //Operador de menor
+console.warn("Menor o igual");
+console.log(a <= b); //Operador de menor o igual
+console.warn("Mayor");
+console.log(a > b); //Operador de mayor
+console.warn("Mayor o igual");
+console.log(a >= b); //Operador de mayor o igual
+console.warn("Igualdad");
+console.log(a == b); //Operador de igualdad 'Compara es si el dato es igual'
+console.warn("Identico");
+console.log(a === b); //Operador de identico 'Compara si el dato y el tipo de dato es igual e identico'
+console.warn("NO Igualdad");
+console.log(a != b); // Operador de No igual 'Compara si el valor de los dos datos no son igual'
+console.warn("No Identico");
+console.log(a !== b); // Operador de No identico 'Compara si el valor y el tipo de datos no son identicos uno de lostros si los datos son igula compara los tipo de datos'
